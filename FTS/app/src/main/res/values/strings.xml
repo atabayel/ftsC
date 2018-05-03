@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Fast Translate System</string>
+    <string name="btn_gallery">Галерея</string>
+    <string name="btn_docs">Документы</string>
+    <string name="btn_lang_select">Выберите языки перевода</string>
+    <string name="enter_page_count">Введите коливество страниц </string>
+    <string name="btn_confirm">Подтвердить</string>
+    <string name="select_lang">Выберите язык</string>
+    <string name="btn_order">Оформить заказ</string>
+    <string name="menu_sign_in">Вход</string>
+    <string name="menu_sign_out">Выход</string>
+    <string name="tv_lang">Язык перевода</string>
+    <string name="tv_pages">Количество страниц</string>
+    <string name="tv_order_is_processed">Ваш заказ находится в обработке!</string>
+    <string name="tv_orders_id">ID Вашего заказа: </string>
+    <string name="btn_image_close">закрыть</string>
+    <string name="registration">РЕГИСТРАЦИЯ</string>
+    <string name="enter">Войти</string>
+    <string name="tel_number">Номер телефона</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="email">Электронный адрес</string>
+    <string name="create_account">Создать аккаунт</string>
+    <string name="logo">Логотип</string>
+    <string name="sw_remember">Запомнить  </string>
+
+    <string name="invalid_login">Введенный номер не зарегестрирован!</string>
+    <string name="cant_create_acc">Не удалось создать аккаунт, попробуйте позже.</string>
+    <string name="reg_record_exists">Аккаунт с данным номером телефона зарегестрирован!</string>
+    <string name="field_err">Ошибка соответствия полей!</string>
+    <string name="cant_send_data">Извините. Не получилось отправить данные. Попробуйте позже.</string>
+    <string name="auth_error">Ошибка передачи данных</string>
+    <string name="auth_false">Данный номер не зарегестрирован!</string>
+    <string name="inet_off">Нет подключения к интернету!</string>
+    <string name="select_file_to_send">Выберите файлы для отправки</string>
+    <string name="unknown_client">Неизвестный аккаунт</string>
+    
+    <string name="tt_select_language">"Выберите язык перевода"</string>
+    <string name="tt_select_page_count">"Выберите количество страниц"</string>
+    <string name="tt_select_images">"Выберите изображения для загрузки и отправки"</string>
+    <string name="tt_select_documents">"или текстовые документы"</string>
+    <string name="tt_btn_confirm">"и в конце подтвердите Ваш выбор!"</string>
+
+    <string name="lang_from_kz">с Казахского</string>
+    <string name="lang_from_ru">с Русского</string>
+    <string name="lang_from_en">с Английского</string>
+    <string name="lang_from_ko">с Корейского</string>
+    <string name="lang_from_ch">с Китайского</string>
+    <string name="lang_to_kz">на Казахский</string>
+    <string name="lang_to_ru">на Русский</string>
+    <string name="lang_to_en">на Английский</string>
+    <string name="lang_to_ko">на Корейский</string>
+    <string name="lang_to_ch">на Китайский</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_order_accepted">OrderAcceptedActivity</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions." </string>
+</resources>

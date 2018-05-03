@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#60647b</color>
+    <color name="colorPrimaryDark">#393939</color>
+    <color name="colorAccent">#6dc4bb</color>
+    <color name="splashScreenBg">#ffffff</color>
+    <color name="activityBg">#383d5a</color>
+    <color name="btnTextColor">#dfe0e5</color>
+    <color name="tvTextColor">#768894</color>
+    <color name="tvHintTextColor">#bbc3c9</color>
+    <color name="dimColor">#000000</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>
