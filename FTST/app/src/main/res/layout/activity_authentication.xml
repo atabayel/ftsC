@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activityBg"
+    tools:context="com.example.user.ftst.AuthenticationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:src="@drawable/logo_main" />
+
+
+        <EditText
+            android:id="@+id/etLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30sp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:layout_marginStart="30sp"
+            android:layout_marginTop="30sp"
+            android:background="@drawable/bg_edit_text"
+            android:hint="@string/enter_login"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:paddingBottom="8sp"
+            android:paddingEnd="8sp"
+            android:paddingLeft="8sp"
+            android:paddingRight="8sp"
+            android:paddingStart="8sp"
+            android:paddingTop="8sp"
+            android:text="admin"
+            android:textColor="@color/tvTextColor"
+            android:textColorHint="@color/tvHintTextColor" />
+
+        <EditText
+            android:id="@+id/etPswd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30sp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:layout_marginStart="30sp"
+            android:layout_marginTop="30sp"
+            android:background="@drawable/bg_edit_text"
+            android:hint="@string/enter_pswd"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:paddingBottom="8sp"
+            android:paddingEnd="8sp"
+            android:paddingLeft="8sp"
+            android:paddingRight="8sp"
+            android:paddingStart="8sp"
+            android:paddingTop="8sp"
+            android:text="pswd"
+            android:textColor="@color/tvTextColor"
+            android:textColorHint="@color/tvHintTextColor" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2sp"
+            android:layout_marginBottom="30sp"
+            android:layout_marginEnd="30sp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:layout_marginStart="30sp"
+            android:layout_marginTop="30sp"
+            android:background="@color/colorAccent">
+
+        </View>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:layout_marginEnd="30sp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:layout_marginStart="30sp"
+            android:background="@drawable/bg_btn"
+            android:onClick="onClick"
+            android:paddingBottom="8sp"
+            android:paddingEnd="8sp"
+            android:paddingLeft="8sp"
+            android:paddingRight="8sp"
+            android:paddingStart="8sp"
+            android:paddingTop="8sp"
+            android:text="@string/btn_enter"
+            android:textColor="@color/btnTextColor" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
